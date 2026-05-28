@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/mixxeo/my-claude-code-os/.claude/hooks/skill-start.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/mixxeo/my-claude-code-os/.claude/hooks/skill-end.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
