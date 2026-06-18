@@ -1,4 +1,8 @@
 {
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/mixxeo/my-claude-code-os/.claude/hooks/retro-statusline.sh"
+  },
   "hooks": {
     "UserPromptSubmit": [
       {
@@ -16,6 +20,10 @@
           {
             "type": "command",
             "command": "bash /Users/mixxeo/my-claude-code-os/.claude/hooks/skill-end.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash /Users/mixxeo/my-claude-code-os/.claude/hooks/update-retro-progress.sh"
           }
         ]
       }
